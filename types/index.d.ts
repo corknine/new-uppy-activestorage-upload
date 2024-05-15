@@ -5,6 +5,7 @@ export interface ActiveStorageUploadOptions extends PluginOptions {
   bundle: boolean;
   directUploadUrl: string;
   headers: Record<string, unknown>;
+  authorization: string;
 }
 
 export default class ActiveStorageUpload extends Plugin {
