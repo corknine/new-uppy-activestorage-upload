@@ -1,7 +1,7 @@
 {
   "name": "@orknine/new-uppy-activestorage-upload",
   "description": "Rails ActiveStorage DirectUpload engine for Uppy with Typescript",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "main": "lib/index.js",
   "jsnext:main": "lib/index.js",
@@ -42,5 +42,9 @@
   },
   "dependencies": {
     "@paralleldrive/cuid2": "^2.2.0"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "packageManager": "yarn@4.2.2"
 }
